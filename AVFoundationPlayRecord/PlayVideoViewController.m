@@ -60,7 +60,7 @@
 
 // Cancel
 
--(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
+-(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker { 
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
